@@ -1,10 +1,37 @@
----
-title: 眼鏡官網-門市據點
-layout: ./app/layout.ejs
-engine: ejs
-current: branches
----
-<section class="py-10 lg:py-20">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>眼鏡官網-門市據點</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,900;1,900&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+</head>
+
+<body>
+  <header class="header bg-primary">
+    <div class="container py-1 flex items-center justify-between md: py-0">
+            <a href="./index.html"><img src="./assets/images/logo-white.png" alt="" class="logo w-20"></a>
+            <span class="mdi mdi-menu text-white text-40 md:hidden"></span>
+      <nav class="hidden md:flex md:items-center md:-mx8">
+        <a href="./products-optical.html" class="text-xl text-white px-8 py-[25px] hover:scale-125">系列鏡框</a>
+        <a href="./branches.html" class="text-xl text-white px-8 py-[25px] hover:scale-125">門市據點</a>
+        <a href="./blog.html" class="text-xl text-white px-8 py-[25px] hover:scale-125">部落格</a>
+        <a href="./faq.html" class="text-xl text-white px-8 py-[25px] hover:scale-125">常見問題</a>
+      </nav>
+    </div>
+    <nav class="top-nav-sm hidden flex-wrap items-center">
+      <a href="./products-optical.html" class="py-3 w-1/2 text-white text-center border-solid border-1 border-white">系列鏡框</a>
+      <a href="./branches.html" class="py-3 w-1/2 text-white text-center border-solid border-1 border-white">門市據點</a>
+      <a href="./blog.html" class="py-3 w-1/2 text-white text-center border-solid border-1 border-white">部落格</a>
+      <a href="./faq.html" class="py-3 w-1/2 text-white text-center border-solid border-1 border-white">常見問題</a>
+    </nav>
+  </header>
+  <main>
+    <section class="py-10 lg:py-20">
     <div class="container">
         <h1 class="text-2xl md:text-5xl font-bold pl-3 mb-6 border-l-8 border-spartan-crimson">門市據點</h1>
         <div class="flex items-center justify-between md:justify-start mb-6">
@@ -122,3 +149,47 @@ current: branches
         </ul>
     </div>
 </section>
+
+  </main>
+  <footer class="footer bg-primary py-6">
+    <div class="container flex flex-col">
+      <div class="flex items-start justify-between mb-10 md:mb-16">
+        <div class="flex flex-col">
+          <nav class="hidden md:flex md:items-center md:-mx-6 md:mb-8">
+            <a href="./index.html" class="text-white px-6 py-2 hover:scale-125">首頁</a>
+            <a href="./products-optical.html" class="text-white px-6 py-2 hover:scale-125">系列產品</a>
+            <a href="./branches.html" class="text-white px-6 py-2 hover:scale-125">門市據點</a>
+            <a href="./blog.html" class="text-white px-6 py-2 hover:scale-125">部落格</a>
+            <a href="./faq.html" class="text-white px-6 py-2 hover:scale-125">常見問題</a>
+          </nav>
+          <ul>
+            <li class="flex items-center mb-2">
+              <span class="mdi mdi-phone-outline mr-11px text-2xl md:text-4xl text-white"></span>
+              <a href="tel:+0800-000-000" class="text-white md:text-4xl">0800-000-000</a>
+            </li>
+            <li class="flex items-center">
+              <span class="mdi mdi-email-outline mr-11px text-2xl md:text-4xl text-white"></span>
+              <a href="mailto:glasses@business.com" class="text-white md:text-4xl">glasses@business.com</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="flex items-center justify-between -mx-1 md:-mx-2">
+          <li><a href="#"><img src="./assets/images/ic_social_fb.png" alt="icon of FB, link to official fan page" class="md:w-14 h-6 md:h-10 px-1 md:px-2"></a></li>
+          <li><a href="#"><img src="./assets/images/ic_social_ig.png" alt="icon of IG, link to official fan page" class="md:w-14  h-6 md:h-10 px-1 md:px-2"></a></li>
+          <li><a href="#"><img src="./assets/images/ic_social_line.png" alt="icon of line, link to official line account" class="md:w-14 h-6 md:h-10 px-1 md:px-2"></a></li>
+        </ul>
+      </div>
+      <div class="w-full flex flex-col md:flex-row md:justify-between relative before:absolute before:-top-4 md:before:-top-8 before:w-full before:border-1 before:border-white">
+        <p class="text-white mb-2">Copyright © 2020 Glasses.All rights reserved.</p>
+        <ul class="md:flex md:-mx-6">
+          <li class="mb-2 md:mb-0"><a href="#" class="text-white md:px-6">隱私權政策</a></li>
+          <li><a href="#" class="text-white md:px-6">服務條款</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
