@@ -920,28 +920,28 @@ select {
   background-color: rgb(183 89 41 / var(--tw-bg-opacity));
 }
 .bg-banner-sm {
-  background-image: url(./assets/images/home-header-sm.png);
+  background-image: url(./images/home-header-sm.png);
 }
 .bg-co-brand-frame-sm {
-  background-image: url(./assets/images/index-bg-md.png);
+  background-image: url(./images/index-bg-md.png);
 }
 .bg-co-brand-AA-plus-sm {
-  background-image: url(./assets/images/home-section4-1-sm.png);
+  background-image: url(./images/home-section4-1-sm.png);
 }
 .bg-co-brand-youth-sm {
-  background-image: url(./assets/images/home-section4-2-sm.png);
+  background-image: url(./images/home-section4-2-sm.png);
 }
 .bg-optical-1-sm {
-  background-image: url(./assets/images/product-header-sm-1.png);
+  background-image: url(./images/product-header-sm-1.png);
 }
 .bg-optical-2-sm {
-  background-image: url(./assets/images/product-header-sm-2.png);
+  background-image: url(./images/product-header-sm-2.png);
 }
 .bg-optical-3-sm {
-  background-image: url(./assets/images/product-header-sm-3.png);
+  background-image: url(./images/product-header-sm-3.png);
 }
 .bg-optical-4-sm {
-  background-image: url(./assets/images/product-header-sm-4.png);
+  background-image: url(./images/product-header-sm-4.png);
 }
 .bg-cover {
   background-size: cover;
@@ -1329,15 +1329,15 @@ select {
   }
 
   .md\:bg-co-brand-frame-md {
-    background-image: url(./assets/images/index-bg-sm.png);
+    background-image: url(./images/index-bg-sm.png);
   }
 
   .md\:bg-co-brand-AA-plus-md {
-    background-image: url(./assets/images/home-section4-1.png);
+    background-image: url(./images/home-section4-1.png);
   }
 
   .md\:bg-co-brand-youth-md {
-    background-image: url(./assets/images/home-section4-2.png);
+    background-image: url(./images/home-section4-2.png);
   }
 
   .md\:px-6 {
@@ -1517,23 +1517,23 @@ select {
   }
 
   .lg\:bg-co-brand-frame-lg {
-    background-image: url(./assets/images/index-bg.png);
+    background-image: url(./images/index-bg.png);
   }
 
   .lg\:bg-optical-1 {
-    background-image: url(./assets/images/product-header-1.png);
+    background-image: url(./images/product-header-1.png);
   }
 
   .lg\:bg-optical-2 {
-    background-image: url(./assets/images/product-header-2.png);
+    background-image: url(./images/product-header-2.png);
   }
 
   .lg\:bg-optical-3 {
-    background-image: url(./assets/images/product-header-3.png);
+    background-image: url(./images/product-header-3.png);
   }
 
   .lg\:bg-optical-4 {
-    background-image: url(./assets/images/product-header-4.png);
+    background-image: url(./images/product-header-4.png);
   }
 
   .lg\:py-20 {
