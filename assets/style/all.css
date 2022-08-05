@@ -1517,7 +1517,11 @@ select {
   }
 
   .lg\:bg-co-brand-frame-lg {
-    background-image: url('https://brook072.github.io/2022LayoutTrainingWeek4assets/images/index-bg.png');
+    background-image: url('https://brook072.github.io/2022LayoutTrainingWeek4/assets/images/index-bg.png');
+  }
+
+  .lg\:bg-optical-1 {
+    background-image: url('https://brook072.github.io/2022LayoutTrainingWeek4/assets/images/product-header-1.png');
   }
 
   .lg\:bg-optical-2 {
