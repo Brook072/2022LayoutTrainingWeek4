@@ -69,7 +69,7 @@
 <section class="py-10 md:py-20">
     <div class="container">
         <h2 class="text-2xl md:text-5xl text-blood-red text-center font-bold mb-6">經典系列鏡框</h2>
-        <ul class="flex flex-col lg:flex-row md:items-center lg:justify-between gap-y-6 md:-mx-3">
+        <ul class="flex flex-col lg:flex-row md:items-center lg:justify-between gap-y-6 md:-mx-3 lg:-mx-3">
             <li class="md:w-1/2 md:px-3 lg:w-1/3">
                 <img src="./assets/images/home-section3-1.png" alt="" class="mb-2">
                 <h3 class="text-5xl text-primary text-center font-black italic">OPTICAL</h3>
@@ -149,31 +149,33 @@
 </section>
 <section class="py-10 md:py-20 bg-secondary">
     <div class="container">
-        <h2 class="text-2xl md:text-5xl text-blood-red text-center font-bold mb-6">聯絡我們</h2>
-        <p class="text-justify mb-6">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
-        <ul>
-            <li class="mb-4">
-                <label for="customer-name" class="block mb-2">姓名</label>
-                <input type="text" name="" id="customer-name" placeholder="陳小明" class="bg-transparent border-1 border-black w-full">
-            </li>
-            <li class="mb-4">
-                <label for="customer-phone" class="block mb-2">聯絡電話</label>
-                <input type="tel" name="" id="customer-phone" placeholder="0912-345-678" class="bg-transparent border-1 border-black w-full">
-            </li>
-            <li class="mb-4">
-                <label for="customer-email" class="block mb-2">電子郵件</label>
-                <input type="email" name="" id="customer-email" placeholder="example@email.com" class="bg-transparent border-1 border-black w-full">
-            </li>
-            <li class="mb-4">
-                <label for="opinion" class="block mb-2">意見反應</label>
-                <textarea name="" id="opinion" cols="30" rows="5" placeholder="請輸入您的意見" class="bg-transparent border-1 border-black w-full h-34"></textarea>
-            </li>
-            <li class="flex items-start mb-6">
-                <span class="mdi mdi-checkbox-blank-outline text-2xl leading-6 mr-1"><input type="checkbox" name="" id="privacy-check" placeholder="" class="hidden"></span>
-                <label for="privacy-check" class="mb-2">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
-            </li>
-            <a href="#" class="block bg-primary hover:bg-gainsboro text-white hover:text-primary text-center py-4 md:w-1/2 md:mx-auto">確認送出</a>
-        </ul>
+        <div class="lg:w-1/2 my-0 mx-auto">
+            <h2 class="text-2xl md:text-5xl text-blood-red text-center font-bold mb-6">聯絡我們</h2>
+            <p class="text-justify mb-6">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+            <ul>
+                <li class="mb-4">
+                    <label for="customer-name" class="block mb-2">姓名</label>
+                    <input type="text" name="" id="customer-name" placeholder="陳小明" class="bg-transparent border-1 border-black w-full">
+                </li>
+                <li class="mb-4">
+                    <label for="customer-phone" class="block mb-2">聯絡電話</label>
+                    <input type="tel" name="" id="customer-phone" placeholder="0912-345-678" class="bg-transparent border-1 border-black w-full">
+                </li>
+                <li class="mb-4">
+                    <label for="customer-email" class="block mb-2">電子郵件</label>
+                    <input type="email" name="" id="customer-email" placeholder="example@email.com" class="bg-transparent border-1 border-black w-full">
+                </li>
+                <li class="mb-4">
+                    <label for="opinion" class="block mb-2">意見反應</label>
+                    <textarea name="" id="opinion" cols="30" rows="5" placeholder="請輸入您的意見" class="bg-transparent border-1 border-black w-full h-34"></textarea>
+                </li>
+                <li class="flex items-start mb-6">
+                    <span class="mdi mdi-checkbox-blank-outline text-2xl leading-6 mr-1"><input type="checkbox" name="" id="privacy-check" placeholder="" class="hidden"></span>
+                    <label for="privacy-check" class="mb-2">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+                </li>
+                <a href="#" class="block bg-primary hover:bg-gainsboro text-white hover:text-primary text-center py-4 md:w-1/2 md:mx-auto">確認送出</a>
+            </ul>
+        </div>
     </div>
 </section>
 
@@ -200,17 +202,17 @@
             </li>
           </ul>
         </div>
-        <ul class="flex items-center justify-between -mx-1 md:-mx-2">
-          <li><a href="#"><img src="./assets/images/ic_social_fb.png" alt="icon of FB, link to official fan page" class="md:w-14 h-6 md:h-10 px-1 md:px-2"></a></li>
-          <li><a href="#"><img src="./assets/images/ic_social_ig.png" alt="icon of IG, link to official fan page" class="md:w-14  h-6 md:h-10 px-1 md:px-2"></a></li>
-          <li><a href="#"><img src="./assets/images/ic_social_line.png" alt="icon of line, link to official line account" class="md:w-14 h-6 md:h-10 px-1 md:px-2"></a></li>
+        <ul class="flex items-center justify-between gap-x-4 md:gap-x-8">
+          <li><a href="#"><img src="./assets/images/ic_social_fb.png" alt="icon of FB, link to official fan page" class="md:w-10 h-6 md:h-10"></a></li>
+          <li><a href="#"><img src="./assets/images/ic_social_ig.png" alt="icon of IG, link to official fan page" class="md:w-10  h-6 md:h-10"></a></li>
+          <li><a href="#"><img src="./assets/images/ic_social_line.png" alt="icon of line, link to official line account" class="md:w-10 h-6 md:h-10"></a></li>
         </ul>
       </div>
       <div class="w-full flex flex-col md:flex-row md:justify-between relative before:absolute before:-top-4 md:before:-top-8 before:w-full before:border-1 before:border-white">
         <p class="text-white mb-2">Copyright © 2020 Glasses.All rights reserved.</p>
-        <ul class="md:flex md:-mx-6">
-          <li class="mb-2 md:mb-0"><a href="#" class="text-white md:px-6">隱私權政策</a></li>
-          <li><a href="#" class="text-white md:px-6">服務條款</a></li>
+        <ul class="md:flex md:gap-x-12">
+          <li class="mb-2 md:mb-0"><a href="#" class="text-white">隱私權政策</a></li>
+          <li><a href="#" class="text-white">服務條款</a></li>
         </ul>
       </div>
     </div>
