@@ -643,22 +643,6 @@ select {
     padding-left: 0rem;
   }
 }
-.category-active::after {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  border-bottom-width: 8px;
-  content: var(--tw-content);
-  --tw-border-opacity: 1;
-  border-color: rgb(170 6 1 / var(--tw-border-opacity));
-}
-.current-page {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 .relative {
   position: relative;
 }
@@ -1147,6 +1131,14 @@ select {
   content: var(--tw-content);
   bottom: 3rem;
 }
+.after\:left-0::after {
+  content: var(--tw-content);
+  left: 0px;
+}
+.after\:bottom-0::after {
+  content: var(--tw-content);
+  bottom: 0px;
+}
 .after\:w-full::after {
   content: var(--tw-content);
   width: 100%;
@@ -1155,10 +1147,19 @@ select {
   content: var(--tw-content);
   border-width: 1px;
 }
+.after\:border-b-8::after {
+  content: var(--tw-content);
+  border-bottom-width: 8px;
+}
 .after\:border-black::after {
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+.after\:border-primary::after {
+  content: var(--tw-content);
+  --tw-border-opacity: 1;
+  border-color: rgb(170 6 1 / var(--tw-border-opacity));
 }
 .hover\:scale-125:hover {
   --tw-scale-x: 1.25;
